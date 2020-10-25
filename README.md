@@ -1,6 +1,8 @@
 # tataaig-automation
-  The Project is in a working state and having two test cases 
+  The Project is in a working state and having two test cases:
+  
   Tata AIG Home page title validation
+  
   Car insurance flow
 
 Highlights:
