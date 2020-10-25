@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tataaig website Home Page Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.238">
+  <properties />
+  
+  
+            <testcase name="HomePageTitleTest" time="1.238" classname="com.tataaig.testcases.HomePageTest" />
+      
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Page Object Model]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.tataaig.listeners.CustomListeners"/>
+    <listener class-name="com.tataaig.errorcollectors.TestListenerAdapter"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="tataaig website Home Page Test(failed)">
+    <classes>
+      <class name="com.tataaig.testcases.HomePageTest">
+        <methods>
+          <include name="HomePageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tataaig.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- tataaig website Home Page Test(failed) -->
+</suite> <!-- Failed suite [Page Object Model] -->

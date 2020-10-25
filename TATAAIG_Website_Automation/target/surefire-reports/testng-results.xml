@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>Verification failure : expected [General Insurance - Buy or Renew Motor, Travel &amp; Health Insurance Online - TATA AIG] but found [General Insurance - Buy / Renew Car, Travel & Health Insurance Online]<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a target="_blank" href=Sun_Oct_25_23_12_57_IST_2020.jpg><img src=Sun_Oct_25_23_12_57_IST_2020.jpg height=200 width=200></img></a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2020-10-25T17:42:56Z" name="Page Object Model" finished-at="2020-10-25T17:43:10Z" duration-ms="14712">
+    <groups>
+    </groups>
+    <test started-at="2020-10-25T17:42:56Z" name="Tataaig website Home Page Test" finished-at="2020-10-25T17:42:58Z" duration-ms="2020">
+      <class name="com.tataaig.testcases.HomePageTest">
+        <test-method signature="HomePageTitleTest(java.util.Hashtable)[pri:0, instance:com.tataaig.testcases.HomePageTest@54534abf]" started-at="2020-10-25T23:12:56Z" name="HomePageTitleTest" data-provider="dp" finished-at="2020-10-25T23:12:57Z" duration-ms="1144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{runmode=Y, Expected_HomePageTitle=General Insurance - Buy or Renew Motor, Travel &amp; Health Insurance Online - TATA AIG}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>Verification failure : expected [General Insurance - Buy or Renew Motor, Travel &amp; Health Insurance Online - TATA AIG] but found [General Insurance - Buy / Renew Car, Travel & Health Insurance Online]<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a target="_blank" href=Sun_Oct_25_23_12_57_IST_2020.jpg><img src=Sun_Oct_25_23_12_57_IST_2020.jpg height=200 width=200></img></a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HomePageTitleTest -->
+      </class> <!-- com.tataaig.testcases.HomePageTest -->
+    </test> <!-- Tataaig website Home Page Test -->
+    <test started-at="2020-10-25T17:42:58Z" name="Purchase Car insurance for customer" finished-at="2020-10-25T17:43:10Z" duration-ms="12663">
+      <class name="com.tataaig.testcases.PurchaseCarInsuranceTest">
+        <test-method signature="purchaseCarInsurance(java.util.Hashtable)[pri:0, instance:com.tataaig.testcases.PurchaseCarInsuranceTest@7a26928a]" started-at="2020-10-25T23:12:58Z" name="purchaseCarInsurance" data-provider="dp" finished-at="2020-10-25T23:13:10Z" duration-ms="12470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{carRegNumber=MH01AB1234, brandModal=Figo, variant=1.2 trend, runmode=Y, brandName=Ford, mobileNumber=9527630419, previousPolicyEndDate=01/01/2018, purchaseDate=01/2012}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- purchaseCarInsurance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tataaig.testcases.PurchaseCarInsuranceTest@7a26928a]" started-at="2020-10-25T23:13:10Z" name="tearDown" finished-at="2020-10-25T23:13:12Z" duration-ms="1439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tataaig.testcases.PurchaseCarInsuranceTest -->
+    </test> <!-- Purchase Car insurance for customer -->
+  </suite> <!-- Page Object Model -->
+</testng-results>

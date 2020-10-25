@@ -1,0 +1,15 @@
+25/10/2020 23:12:44 devpinoyLogger Config file loaded !!!
+25/10/2020 23:12:44 devpinoyLogger OR file loaded !!!
+25/10/2020 23:12:53 devpinoyLogger Navigated to : https://www.tataaig.com/
+25/10/2020 23:12:56 devpinoyLogger Clicking on an Element : carInsurancePolicyTab_CSS
+25/10/2020 23:12:58 devpinoyLogger Clicking on an Element : carInsurancePolicyTab_CSS
+25/10/2020 23:12:59 devpinoyLogger Typing in an Element : regNumber_CSS entered value as : MH01AB1234
+25/10/2020 23:13:01 devpinoyLogger Clicking on an Element : globalSubmitButton_CSS
+25/10/2020 23:13:05 devpinoyLogger Clicking on an Element : vehicleTypes_XPATH
+25/10/2020 23:13:06 devpinoyLogger Clicking on an Element : vehicleTypes_XPATH
+25/10/2020 23:13:07 devpinoyLogger Clicking on an Element : vehicleTypes_XPATH
+25/10/2020 23:13:07 devpinoyLogger Clicking on an Element : globalSubmitButton_CSS
+25/10/2020 23:13:08 devpinoyLogger Typing in an Element : purchaseDate_NAME entered value as : 01/2012
+25/10/2020 23:13:09 devpinoyLogger Typing in an Element : previousPolicyEndDate_NAME entered value as : 01/01/2018
+25/10/2020 23:13:10 devpinoyLogger Typing in an Element : mobile_NAME entered value as : 9527630419
+25/10/2020 23:13:10 devpinoyLogger Clicking on an Element : globalSubmitButton_CSS

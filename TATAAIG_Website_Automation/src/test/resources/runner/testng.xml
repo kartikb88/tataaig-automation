@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Page Object Model">
+
+	<listeners>
+
+		<listener class-name="com.tataaig.listeners.CustomListeners" />
+
+		<listener class-name="com.tataaig.errorcollectors.TestListenerAdapter" />
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+	</listeners>
+
+
+	<test name="Tataaig website Home Page Test">
+		<classes>
+			<class name="com.tataaig.testcases.HomePageTest" />
+		</classes>
+	</test> <!-- Test -->
+
+ 	<test name="Purchase Car insurance for customer">
+		<classes>
+			<class name="com.tataaig.testcases.PurchaseCarInsuranceTest" />
+		</classes>
+	</test><!-- Test -->
+
+</suite> <!-- Suite -->
